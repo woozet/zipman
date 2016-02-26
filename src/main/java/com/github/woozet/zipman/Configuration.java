@@ -1,11 +1,8 @@
-package com.github.woozet.zipConverter;
+package com.github.woozet.zipman;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 
-/**
- * Created by 1001195 on 16. 2. 26..
- */
 public class Configuration {
     @Bean
     public ThreadPoolTaskExecutor taskExecutor() {

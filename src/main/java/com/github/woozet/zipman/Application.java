@@ -1,4 +1,4 @@
-package com.github.woozet.zipConverter;
+package com.github.woozet.zipman;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

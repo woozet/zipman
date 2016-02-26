@@ -1,4 +1,4 @@
-package com.github.woozet.zipConverter;
+package com.github.woozet.zipman;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -7,9 +7,6 @@ import java.io.*;
 import java.net.URL;
 import java.net.URLConnection;
 
-/**
- * Created by 1001195 on 16. 2. 25..
- */
 public class Downloader implements Runnable {
     private static final Logger log = LoggerFactory.getLogger(Downloader.class);
     private String url;
